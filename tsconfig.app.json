@@ -12,7 +12,7 @@
       "@components/*": ["./components/*"],
       "@hooks/*": ["./hooks/*"],
       "@assets/*": ["./assets/*"],
-      "@pages/*": ["./routing/*"],
+      "@pages/*": ["./pages/*"],
       "@api/*": ["./api/*"],
       "@utils/*": ["./utils/*"]
     },
