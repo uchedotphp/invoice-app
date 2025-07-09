@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "./colors.css";
+@import "./typography.css";
+@import "./globals.css";
+@import "./components.css";
+
+@theme {
+  --font-league: "League Spartan", "system-ui", "sans-serif";
+}

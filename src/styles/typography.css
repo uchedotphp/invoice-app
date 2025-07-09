@@ -1,0 +1,70 @@
+@layer base {
+  :root {
+    --font-sans: 'League Spartan', system-ui, sans-serif;
+    /* Font sizes from Figma */
+    --font-size-heading-l: 2.25rem;   /* 36px */
+    --line-height-heading-l: 2.0625rem; /* 33px */
+    --letter-spacing-heading-l: -0.01em;
+
+    --font-size-heading-m: 1.5rem;    /* 24px */
+    --line-height-heading-m: 1.375rem; /* 22px */
+    --letter-spacing-heading-m: -0.0075em;
+
+    --font-size-heading-s: 0.9375rem; /* 15px */
+    --line-height-heading-s: 1.5rem;  /* 24px */
+    --letter-spacing-heading-s: -0.0025em;
+
+    --font-size-heading-s-variant: 0.9375rem; /* 15px */
+    --line-height-heading-s-variant: 0.9375rem; /* 15px */
+    --letter-spacing-heading-s-variant: -0.0025em;
+
+    --font-size-body: 0.8125rem;      /* 13px */
+    --line-height-body: 1.125rem;     /* 18px */
+    --letter-spacing-body: -0.01em;
+
+    --font-size-body-variant: 0.8125rem; /* 13px */
+    --line-height-body-variant: 0.9375rem; /* 15px */
+    --letter-spacing-body-variant: -0.25em;
+  }
+
+  html {
+    font-family: var(--font-sans);
+  }
+
+  h1, .heading-l {
+    font-size: var(--font-size-heading-l);
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing-heading-l);
+    line-height: var(--line-height-heading-l);
+  }
+  h2, .heading-m {
+    font-size: var(--font-size-heading-m);
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing-heading-m);
+    line-height: var(--line-height-heading-m);
+  }
+  h3, .heading-s {
+    font-size: var(--font-size-heading-s);
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing-heading-s);
+    line-height: var(--line-height-heading-s);
+  }
+  .heading-s-variant {
+    font-size: var(--font-size-heading-s-variant);
+    font-weight: 700;
+    letter-spacing: var(--letter-spacing-heading-s-variant);
+    line-height: var(--line-height-heading-s-variant);
+  }
+  body, .body {
+    font-size: var(--font-size-body);
+    font-weight: 500;
+    line-height: var(--line-height-body);
+    letter-spacing: var(--letter-spacing-body);
+  }
+  .body-variant {
+    font-size: var(--font-size-body-variant);
+    font-weight: 500;
+    line-height: var(--line-height-body-variant);
+    letter-spacing: var(--letter-spacing-body-variant);
+  }
+} 

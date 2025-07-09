@@ -1,0 +1,23 @@
+@layer base {
+  ::selection {
+    @apply bg-purple-500/40;
+  }
+
+  /* Custom scrollbar example */
+  ::-webkit-scrollbar {
+    @apply w-2 bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-500/30 rounded-sm;
+  }
+
+  html,
+  body {
+    @apply w-full h-full overflow-hidden font-league;
+    line-height: 1;
+  }
+
+  #root {
+    @apply h-full;
+  }
+}
