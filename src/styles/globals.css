@@ -5,7 +5,7 @@
 
   /* Custom scrollbar example */
   ::-webkit-scrollbar {
-    @apply w-2 bg-transparent;
+    @apply w-0 h-0 bg-transparent;
   }
   ::-webkit-scrollbar-thumb {
     @apply bg-slate-500/30 rounded-sm;

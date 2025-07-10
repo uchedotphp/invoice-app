@@ -18,6 +18,7 @@
   --color-paid: #33d69f;
   --color-pending: #ff8f00;
   --color-draft: #373b53;
+  --color-dark: #373B53;
 }
 
 @layer base {
